@@ -5,7 +5,7 @@ from urllib.error import HTTPError
 wb = openpyxl.load_workbook(filename='BATHS MASTER.xlsx')
 ws = wb.active
 
-column = ['H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S']
+column = ['A', 'B', 'C']
 imgheaders = ['Image1', 'Image2', 'Image3',	'Image4', 'Image5', 'Image6', 'Image7', 'Image8', 'Image9', 'Image10', 'Image11','eDrawing']
 
 h = 0

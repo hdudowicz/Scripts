@@ -2,6 +2,7 @@ import openpyxl
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
+
 wb = openpyxl.load_workbook(filename='BATHS MASTER.xlsx')
 ws = wb.active
 
@@ -10,6 +11,7 @@ imgheaders = ['Image1', 'Image2', 'Image3',	'Image4', 'Image5', 'Image6', 'Image
 
 h = 0
 for col in column:
+
 
     for cell in ws[col]:
         try:

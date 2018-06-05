@@ -19,8 +19,6 @@ prodws = prodwb['Sheet1']
 tempwb = openpyxl.load_workbook('temp.xlsx')
 tempws = tempwb['Sheet1']
 
-sku_col_prodws = prodws['B']
-
 prodcats = []
 
 #Iterate over every SKU in product worksheet
@@ -38,7 +36,7 @@ for sku in prodws['B']:
 i = 1
 
 for prod in prodcats:
-    # print(catws['B' + str(prod)].value)
+    print(catws['B' + str(prod)].value)
     tempws['A' + str(i)] = catws['B' + str(prod)].value
     tempws['B' + str(i)] = catws['F' + str(prod)].value
     i += 1

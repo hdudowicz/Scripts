@@ -13,7 +13,7 @@ cursor = db.cursor()
 catwb = openpyxl.load_workbook('MASTER CATEGORIES.xlsx')
 catws = catwb['CORRELATION KEY']
 
-prodwb = openpyxl.load_workbook('BATHS MASTER.xlsx')
+prodwb = openpyxl.load_workbook('H:\Scripts\Auto eBay Cat Filler\BATHS Ready For eBay Table.xlsx')
 prodws = prodwb['Sheet1']
 
 tempwb = openpyxl.load_workbook('temp.xlsx')
@@ -24,7 +24,8 @@ prodcats = []
 #Iterate over every SKU in product worksheet
 for sku in prodws['B']:
     #Execute query subtracting the child part of the SKU
-    cursor.execute("SELECT * FROM prod_parent WHERE prodcode = '" + re.sub(r'/\d.?', '', str(sku.value)) + "'")
+    # cursor.execute("SELECT * FROM prod_parent WHERE prodcode = '" + re.sub(r'/\d.?', '', str(sku.value)) + "'")
+    cursor.execute("SELECT * FROM prod_parent WHERE prodcode = '" + str(sku.value) + "'")
 
     #Add relevant product category to prodcats array
     while True:
@@ -38,6 +39,9 @@ i = 1
 for prod in prodcats:
     print(catws['B' + str(prod)].value)
     tempws['A' + str(i)] = catws['B' + str(prod)].value
-    tempws['B' + str(i)] = catws['F' + str(prod)].value
+    tempws['B' + str(i)] = catws['D' + str(prod)].value
+
+    tempws['D' + str(i)] = catws['H' + str(prod)].value
+    tempws['E' + str(i)] = catws['J' + str(prod)].value
     i += 1
 tempwb.save('Category List.xlsx')

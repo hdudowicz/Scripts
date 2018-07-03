@@ -3,7 +3,7 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
 
-wb = openpyxl.load_workbook(filename='H:\Documents\Excel\BATHS Ready For eBay Table.xlsx')
+wb = openpyxl.load_workbook(filename='H:\Scripts\MASTER - SHOWER ENCLOSURES NEWW.xlsm')
 ws = wb.active
 
 column = ['G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R']

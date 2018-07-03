@@ -2,10 +2,10 @@ from shutil import copyfile
 import openpyxl
 from PIL import Image
 
-wb = openpyxl.load_workbook(filename='H:\Documents\Excel\Baths eBay Table.xlsx')
+wb = openpyxl.load_workbook(filename='H:\Documents\Excel\MASTER - SHOWER ENCLOSURES.xlsx')
 ws = wb.active
 
-column = ['G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R']
+column = ['E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P']
 
 for col in column:
     i=0
@@ -19,6 +19,7 @@ for col in column:
                     if imgSize[0] > 500 and imgSize[1] > 500:
                         copyfile('Z:/' + cell.value, 'Z:/eBay/ebay_upload/' + cell.value.lower().replace('.jpg', '_ebay.jpg'))
                         print(cell.value)
+                        cell.value = cell.value.lower().replace('.jpg', '_ebay.jpg')
                     else:
                         with open('Too Small.txt', 'a') as txt:
                             txt.write(cell.value + '\n')
@@ -26,3 +27,4 @@ for col in column:
                     with open('Not Found.txt', 'a') as txt:
                         txt.write(cell.value + '\n')
         i+=1
+wb.save('MASTER - SHOWER ENCLOSURES NEW.xlsx')

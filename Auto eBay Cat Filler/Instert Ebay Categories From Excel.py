@@ -10,10 +10,10 @@ connection_string = 'Driver={SQL Server};Server=' + db_host + ';Database=' + db_
 db = pyodbc.connect(connection_string)
 cursor = db.cursor()
 
-catwb = openpyxl.load_workbook('MASTER CATEGORIES.xlsx')
+catwb = openpyxl.load_workbook('MASTER - CATEGORIES NEW.xlsx')
 catws = catwb['CORRELATION KEY']
 
-prodwb = openpyxl.load_workbook('H:\Scripts\Auto eBay Cat Filler\BATHS Ready For eBay Table.xlsx')
+prodwb = openpyxl.load_workbook('H:\Documents\Excel\MASTER - SHOWER ENCLOSURES.xlsx')
 prodws = prodwb['Sheet1']
 
 tempwb = openpyxl.load_workbook('temp.xlsx')
@@ -21,13 +21,13 @@ tempws = tempwb['Sheet1']
 
 prodcats = []
 
-#Iterate over every SKU in product worksheet
-for sku in prodws['B']:
-    #Execute query subtracting the child part of the SKU
-    # cursor.execute("SELECT * FROM prod_parent WHERE prodcode = '" + re.sub(r'/\d.?', '', str(sku.value)) + "'")
-    cursor.execute("SELECT * FROM prod_parent WHERE prodcode = '" + str(sku.value) + "'")
+# Iterate over every SKU in product worksheet
+for sku in prodws['A']:
+    # Execute query subtracting the child part of the SKU
+    cursor.execute("SELECT * FROM prod_parent WHERE prodcode = '" + re.sub(r'/\d.?', '', str(sku.value)) + "'")
+    # cursor.execute("SELECT * FROM prod_parent WHERE prodcode = '" + str(sku.value) + "'")
 
-    #Add relevant product category to prodcats array
+    # Add relevant product category to prodcats array
     while True:
         row = cursor.fetchone()
         if not row:

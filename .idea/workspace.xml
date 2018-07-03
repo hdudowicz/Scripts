@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17d45f92-06ee-4b47-9c05-4a7e394e42d3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Modern And Traditional/ModernTraditional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Update Dimensions From Sheet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto eBay Cat Filler/Instert Ebay Categories From Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto eBay Cat Filler/Instert Ebay Categories From Excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Check Image Links.py" beforeDir="false" afterPath="$PROJECT_DIR$/Check Image Links.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Copy Images To eBay.py" beforeDir="false" afterPath="$PROJECT_DIR$/Copy Images To eBay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Invalid Img Links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Invalid Img Links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Not Found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Not Found.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +21,8 @@
       <file leaf-file-name="Check Image Links.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Check Image Links.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="420">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -27,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instert Ebay Categories From Excel.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Instert Ebay Categories From Excel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Auto eBay Cat Filler/Instert Ebay Categories From Excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="340">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -39,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModernTraditional.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModernTraditional.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modern And Traditional/ModernTraditional.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -54,8 +57,8 @@
       <file leaf-file-name="Remove Children.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Description Scripts/Remove Children.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="420">
+              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -63,19 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Insert eBay Categories.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Insert eBay Categories.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Remove URL Froim Images.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Remove URL Froim Images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="260">
               <caret line="13" column="112" selection-start-line="13" selection-start-column="112" selection-end-line="13" selection-end-column="112" />
             </state>
           </provider>
@@ -84,8 +78,8 @@
       <file leaf-file-name="Copy Images To eBay.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Copy Images To eBay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="400">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -114,16 +108,17 @@
         <option value="$PROJECT_DIR$/Description Scripts/Radiator Descriptions.py" />
         <option value="$PROJECT_DIR$/Description Scripts/Remove Children.py" />
         <option value="$PROJECT_DIR$/Remove URL Froim Images.py" />
-        <option value="$PROJECT_DIR$/Check Image Links.py" />
-        <option value="$PROJECT_DIR$/Auto eBay Cat Filler/Instert Ebay Categories From Excel.py" />
-        <option value="$PROJECT_DIR$/Copy Images To eBay.py" />
         <option value="$PROJECT_DIR$/Update Dimensions From Sheet.py" />
+        <option value="$PROJECT_DIR$/Copy Images To eBay.py" />
+        <option value="$PROJECT_DIR$/Check Image Links.py" />
         <option value="$PROJECT_DIR$/Modern And Traditional/ModernTraditional.py" />
+        <option value="$PROJECT_DIR$/Auto eBay Cat Filler/Instert Ebay Categories From Excel.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1927" />
+    <option name="x" value="83" />
+    <option name="y" value="5" />
     <option name="width" value="1440" />
     <option name="height" value="780" />
   </component>
@@ -145,6 +140,10 @@
               <item name="Scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="Description Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -187,6 +186,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Check Image Links.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Copy Images To eBay" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Copy Images To eBay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,11 +306,13 @@
       <item itemvalue="Python.Remove URLs" />
       <item itemvalue="Python.Check Image Links" />
       <item itemvalue="Python.ModernTraditional" />
+      <item itemvalue="Python.Copy Images To eBay" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ModernTraditional" />
         <item itemvalue="Python.Check Image Links" />
+        <item itemvalue="Python.Copy Images To eBay" />
+        <item itemvalue="Python.ModernTraditional" />
       </list>
     </recent_temporary>
   </component>
@@ -357,23 +376,30 @@
       <option name="project" value="LOCAL" />
       <updated>1528462860130</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Script finished">
+      <created>1530115024681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530115024681</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32306057" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32289416" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32731137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32721382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" visible="true" weight="0.38257173" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.3822894" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -393,10 +419,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Modern And Traditional/ModernTraditional.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Modern And Traditional/ModernTraditional.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="39" />
+      <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -762,33 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Check Image Links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Copy Images To eBay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Insert eBay Categories.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Update Dimensions From Sheet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -796,10 +807,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Auto eBay Cat Filler/Instert Ebay Categories From Excel.py">
+    <entry file="file://$PROJECT_DIR$/Insert eBay Categories.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="160">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Check Image Links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -808,17 +826,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Remove URL Froim Images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="260">
           <caret line="13" column="112" selection-start-line="13" selection-start-column="112" selection-end-line="13" selection-end-column="112" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Description Scripts/Remove Children.py">
+    <entry file="file://$PROJECT_DIR$/Copy Images To eBay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="400">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -826,7 +844,27 @@
     <entry file="file://$PROJECT_DIR$/Modern And Traditional/ModernTraditional.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Description Scripts/Remove Children.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auto eBay Cat Filler/Instert Ebay Categories From Excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

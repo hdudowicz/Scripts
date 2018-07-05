@@ -60,6 +60,7 @@ for id in parentids:
     # Iterate up until id 1000
     if id >= 1000:
         break
+
 print(parentMTs)
 print(len(parentMTs))
 print('Items: ' + str(items))

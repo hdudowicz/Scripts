@@ -34,12 +34,9 @@ def majority_element(lst):
     data = Counter(lst)
     return max(lst, key=data.get)
 
-
-
 for row in cursor.fetchall():
     parentids.append(row[0])
-    # pp.pprint(dict(zip(columns, row)))
-items = 0
+
 # Iterate over all parent ids
 for id in parentids:
     # Select children with parentid = id
@@ -55,12 +52,10 @@ for id in parentids:
         if childrows.count(childrow) == len(childrows):
             parentMTs[0].append(id)
             parentMTs[1].append(majority_element(childrows)[24])
-            items += 1
             break
         else:
             parentMTs[0].append(id)
             parentMTs[1].append(childrow[24])
-            items += 1
             break
 
     # # Iterate up until id 1000
@@ -76,8 +71,7 @@ for id in parentMTs[0]:
 cursor.commit()
 
 print(parentMTs)
-print(len(parentMTs))
-print('Items: ' + str(items))
+print(len(parentMTs[0]))
 
 cursor.close()
 db.close()

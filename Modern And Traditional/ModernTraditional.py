@@ -1,8 +1,5 @@
-import openpyxl
 import pypyodbc as pyodbc
-import re
 import pprint
-import numpy
 from collections import Counter
 
 db_host = 'DESIGNER1\INTRANET'
@@ -64,7 +61,6 @@ for id in parentids:
 
 i = 0
 for id in parentMTs[0]:
-    # print('UPDATE prod_parent_test SET modern_traditional = \'' + parentMTs[1][i] + '\' WHERE parentid = '+str(id))
     if parentMTs[1][i] != None:
         cursor.execute('UPDATE prod_parent_test SET modern_traditional = \'' + parentMTs[1][i] + '\' WHERE parentid = '+str(id))
     i += 1
